@@ -1,0 +1,27 @@
+/* Import Tailwind CSS base, components, and utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset box sizing, padding, and margins for all elements */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Set default styles for html and body */
+html,
+body {
+    max-width: 100vw;
+    /* Prevent horizontal scrolling */
+    overflow-x: hidden;
+    /* Hide horizontal overflow */
+    height: 100%;
+    /* Full height for proper layout */
+}
+
+/* Set the default font family for the entire application */
+body {
+    font-family: 'DM Sans', sans-serif;
+}
